@@ -17,7 +17,7 @@ docker run -ti --rm jeremygarigliet/apache-utils htpasswd -Bn [USERNAME]
 ### Non-interactive
 
 ```bash
-docker run --rm jeremygarigliet/apache-utils htpasswd -b [USERNAME] [PASSWORD]
+docker run --rm jeremygarigliet/apache-utils htpasswd -Bnb [USERNAME] [PASSWORD]
 ```
 
 ---
